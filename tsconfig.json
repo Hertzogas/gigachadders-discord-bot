@@ -1,0 +1,16 @@
+﻿{
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": ["ES2021"],
+    "module": "CommonJS",
+		"moduleResolution": "Node",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"types": ["node", "better-sqlite3"]
+  },
+  "include": ["src"]
+}
